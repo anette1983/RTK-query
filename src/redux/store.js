@@ -18,3 +18,4 @@ export const store = configureStore({
 });
 
 setupListeners(store.dispatch);
+// благодаря этому имеем возможность использ refetchOnMount, onfocus итд
