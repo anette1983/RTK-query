@@ -21,7 +21,7 @@ const theme = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/rtk-query">
       <ThemeProvider theme={theme}>
         <Provider store={store}>
           <App />
